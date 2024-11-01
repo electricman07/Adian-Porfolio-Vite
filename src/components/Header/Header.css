@@ -1,0 +1,11 @@
+.home {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(222, 204, 204, 0.3)
+    ),
+    url(../../../public/assets/Header-background-image-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

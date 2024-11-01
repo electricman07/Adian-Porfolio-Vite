@@ -1,4 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
+import "./Header.css";
 
 import Image from "../Image/Image";
 
