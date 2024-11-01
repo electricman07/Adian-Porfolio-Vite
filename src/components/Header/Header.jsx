@@ -1,5 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 
+import Image from "../Image/Image";
+
 function Header() {
   return (
     <>
@@ -10,16 +12,12 @@ function Header() {
         >
           {/* Image */}
           <div className="image-container w-6/12 h-1/2 flex justify-center">
-            <img
-              src="/assets/images/headshot_adrian.jpg"
-              alt="image of Adrian"
-              className="w-6/12 rounded-full"
-            />
+            <Image />
           </div>
           {/* Greeting */}
           <div className="greeting-container w-6/12 h-1/2 flex flex-col">
             <p className="greeting">Hello, I am</p>
-            <h1 className="intro text-9xl pt-3.5">Adrian</h1>
+            <h1 className="intro text-8xl pt-3.5">Adrian</h1>
             <h2 className="subtitle-main text-2xl pt-1.5">
               {" "}
               <Typewriter
