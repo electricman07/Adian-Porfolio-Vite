@@ -1,8 +1,9 @@
 import { Typewriter } from "react-simple-typewriter";
 import "./Header.css";
+import ImgIcon from "/assets/images/headshot_adrian.jpg";
 
 import Image from "../Image/Image";
-
+const imageclass = "image-animation w-6/12 rounded-full";
 function Header() {
   return (
     <>
@@ -13,7 +14,7 @@ function Header() {
         >
           {/* Image */}
           <div className="image-container w-6/12 h-1/2 flex justify-center">
-            <Image />
+            <Image ImgIcon={ImgIcon} imageclass={imageclass} />
           </div>
           {/* Greeting */}
           <div className="greeting-container w-6/12 h-1/2 flex flex-col">
