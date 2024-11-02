@@ -32,4 +32,4 @@ const experience = [
     desc: "I was a part of the Media Arts Program where I was able to create short films",
   },
 ];
-export default { education, experience };
+export { education, experience };

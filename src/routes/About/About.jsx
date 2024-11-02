@@ -1,10 +1,12 @@
 import Image from "@/components/Image/Image";
 import ImgIcon from "../../../public/assets/images/AdrianStandingNoBackground.png";
 import AboutList from "../../components/AboutList/AboutList";
-import education from "./items";
+import JobsList from "@/components/JobsList/JobsList";
+import { education, experience } from "./items";
 
 function About() {
   const list = education;
+  const jobs = experience;
 
   return (
     <>
@@ -16,15 +18,18 @@ function About() {
           <Image ImgIcon={ImgIcon} />
         </div>
         <div className="eduction-center w-2/6">
-          <h2 className="education-header  text-center mb-10 text-2xl">
+          <h2 className="education-header  text-center mb-10 text-3xl">
             Education
           </h2>
           {list.map((item) => (
             <AboutList item={item} key={item.id} />
           ))}
         </div>
-        <div className="experience-side w-2/6 text-2xl text-center">
-          <h2 className="experience-header">Experience</h2>
+        <div className="experience-side w-2/6">
+          <h2 className="experience-header text-3xl text-center">Experience</h2>
+          {jobs.map((job) => (
+            <JobsList job={job} key={job.id} />
+          ))}
         </div>
       </section>
     </>
