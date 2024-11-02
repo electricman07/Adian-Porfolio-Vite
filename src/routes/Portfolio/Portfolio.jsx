@@ -67,11 +67,11 @@ const images = [
 function Portfolio() {
   const imageSrc = images;
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true, loop: true })
+    Autoplay({ delay: 4000, stopOnInteraction: true, loop: true })
   );
   return (
     <>
-      <div className="portfolio-container" id="portfolio">
+      <div className="portfolio-container h-screen" id="portfolio">
         <h2>Portfolio</h2>
         <div className="slider-container flex justify-center">
           <Carousel
@@ -82,14 +82,11 @@ function Portfolio() {
           >
             <CarouselContent>
               {imageSrc.map((picture) => (
-                <CarouselItem
-                  key={picture.id}
-                  className=" pl-4 md:basis-1/2 lg:basis-1/3"
-                >
-                  <div className="p-1">
+                <CarouselItem key={picture.id}>
+                  <div>
                     <Card>
-                      <CardContent className="flex aspect-square items-center justify-center p-6">
-                        <CarouselItem className=" pl-4">
+                      <CardContent className="flex aspect-square items-center justify-center">
+                        <CarouselItem className="">
                           <img src={picture.image} />
                         </CarouselItem>
                       </CardContent>
