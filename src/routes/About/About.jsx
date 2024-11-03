@@ -1,5 +1,5 @@
 import Image from "@/components/Image/Image";
-import ImgIcon from "../../../public/assets/images/AdrianStandingNoBackground.png";
+import ImgIcon from "/assets/images/AdrianStandingNoBackground.png";
 import AboutList from "../../components/AboutList/AboutList";
 import JobsList from "@/components/JobsList/JobsList";
 import { education, experience } from "./items";
