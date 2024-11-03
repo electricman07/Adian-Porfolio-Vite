@@ -1,8 +1,8 @@
 function Portfolio() {
   return (
     <>
-      <section className="portfolio-container " id="portfolio">
-        <div className="portfolio-header">
+      <section className="portfolio-container" id="portfolio">
+        <div className="portfolio-header text-3xl text-center ">
           <h2>Portfolio</h2>
         </div>
         <div className="portfolio-carousel-container"></div>
