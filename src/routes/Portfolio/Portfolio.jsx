@@ -28,8 +28,9 @@ function Portfolio() {
             {images.map((image, index) => (
               <div key={index}>
                 <img src={image.image} alt={`Slide ${index}`} />
-                <div className="text-center">
-                  <h3>{image.caption}</h3>
+                <h3 className="image-title  mt-10">{image.title}</h3>
+                <div className="image-text text-center mt-4">
+                  <p>{image.caption}</p>
                 </div>
               </div>
             ))}
