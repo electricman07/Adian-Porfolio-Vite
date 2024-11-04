@@ -5,8 +5,9 @@ function Navbar() {
     <>
       <nav className="main-navbar h-12 w-screen flex justify-between items-center sticky top-0 px-5">
         <div className="left-section">
-          <div className="logo-container">
-            <h2 className="text-xl">Header logo</h2>
+          <div className="logo-container flex justify-items-center items-center">
+            <img src="/assets/images/Logo.png" className="h-10" />
+            <h2 className="text-xl pl-10">Adrian Popowich</h2>
           </div>
         </div>
         <div className="right-section flex text-justify gap-4">
