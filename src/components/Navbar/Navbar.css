@@ -2,6 +2,7 @@
   color: var(--pale-dogwood);
   background-color: var(--black);
   z-index: 99;
+  padding: 0;
 }
 
 .menu-icon {

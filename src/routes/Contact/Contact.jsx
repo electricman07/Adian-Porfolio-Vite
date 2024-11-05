@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="contact-form-wrapper w-1/2">
+        <div className="contact-form-wrapper w-1/2 ">
           <form>
             <div className="form-item">
               <input

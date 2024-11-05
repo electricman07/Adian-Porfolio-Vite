@@ -13,3 +13,12 @@
 .greeting {
   font-family: "Dancing Script";
 }
+
+.about-description {
+  padding: 0 4rem 0 0;
+  margin-bottom: 2.5rem;
+}
+
+.button-icon {
+  color: var(--dodger-blue);
+}

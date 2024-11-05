@@ -34,8 +34,8 @@ function Navbar() {
             className="logo-container flex justify-items-center items-center"
             to="/home"
           >
-            <img src="/assets/images/Logo.png" className="h-10" />
-            <h2 className="text-xl pl-10">Adrian Popowich</h2>
+            <img src="/assets/images/Logo.png" className="h-10 pl-5" />
+            <h2 className="text-xl pl-10 max-sm:hidden">Adrian Popowich</h2>
           </Link>
         </div>
 

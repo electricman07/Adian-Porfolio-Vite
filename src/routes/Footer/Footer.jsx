@@ -28,9 +28,12 @@ const Footer = () => {
       </div>
 
       <p className="copyright">
-        Copyright &copy;{new Date().getFullYear()} Arian Popowich - Created by{" "}
-        <a href="#">Glen Popowich</a>
+        Copyright &copy;{new Date().getFullYear()} Arian Popowich
       </p>
+      <span>
+        {" "}
+        Created by <a href="#">Glen Popowich</a>
+      </span>
     </footer>
   );
 };
