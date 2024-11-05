@@ -18,7 +18,7 @@ function Header() {
           </div>
           {/* Greeting */}
           <div className="greeting-container w-6/12 h-1/2 flex flex-col">
-            <p className="greeting">Hello, I am</p>
+            <p className="greeting text-2xl">Hello, I am</p>
             <h1 className="intro text-8xl pt-3.5">Adrian</h1>
             <h2 className="subtitle-main text-2xl pt-1.5">
               {" "}
