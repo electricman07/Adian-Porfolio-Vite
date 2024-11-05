@@ -1,4 +1,5 @@
 .main-navbar {
   color: var(--pale-dogwood);
   background-color: var(--black);
+  z-index: 99;
 }
