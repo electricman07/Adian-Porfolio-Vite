@@ -144,6 +144,7 @@ textarea {
   margin-bottom: 20px;
   padding: 12px;
   font-size: clamp(15px, 1.5vw, 18px);
+  background-color: var(--white);
 }
 
 input:focus + label,
