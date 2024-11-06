@@ -10,7 +10,10 @@ function About() {
 
   return (
     <>
-      <section className="about-container w-full max-sm:h-[130vh] " id="about">
+      <section
+        className="about-container w-full max-sm:h-[140vh] pt-28 max-sm:pt-12"
+        id="about"
+      >
         <div className="about-header mb-10 mt-10 text-3xl text-center">
           <h2>About Me</h2>
         </div>

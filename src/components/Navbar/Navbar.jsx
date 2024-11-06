@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 import "./Navbar.css";
 
@@ -32,7 +32,7 @@ function Navbar() {
         <div className="left-section">
           <Link
             className="logo-container flex justify-items-center items-center"
-            to="/home"
+            to="/#home"
           >
             <img src="/assets/images/Logo.png" className="h-10 pl-5" />
             <h2 className="text-xl pl-10 max-sm:hidden">Adrian Popowich</h2>

@@ -1,0 +1,13 @@
+.details-body-extended {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+/* 
+.caption-body {
+  width: 90%;
+} */
+
+/* .img-body {
+  width: 50%;
+} */

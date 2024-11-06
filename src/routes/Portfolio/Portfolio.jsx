@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ImageList from "@/components/ImageList/ImageList";
 
-import images from "./images";
+import images from "../../assets/images";
 import "./Portfolio.css";
 
 function Portfolio() {
@@ -50,7 +51,7 @@ function Portfolio() {
   return (
     <>
       <section
-        className="portfolio-container h-[100vh] mt-28 max-sm:flex max-sm:flex-col max-sm:items-center"
+        className="portfolio-container h-[120vh] max-am-[140vh] mt-28 pt-28 max-sm:pt-12 max-sm:flex max-sm:flex-col max-sm:items-center"
         id="portfolio"
       >
         <div className="portfolio-header text-3xl text-center mb-10">
@@ -63,14 +64,8 @@ function Portfolio() {
             ref={(slider) => setSlider1(slider)}
           >
             {images.map((image) => (
-              <div key={image.id}>
-                <div className="img-body">
-                  <img src={image.image} alt={image.alt} />
-                </div>
-                <h3 className="image-title mt-10 text-center">{image.title}</h3>
-                <div className="image-text mt-2 p-6">
-                  <p>{image.caption}</p>
-                </div>
+              <div key={image.id} className="details-container">
+                <ImageList image={image} />
               </div>
             ))}
           </Slider>

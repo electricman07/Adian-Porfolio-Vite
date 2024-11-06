@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="section4 flex justify-center items-center mb-8"
+      className="section4 flex justify-center items-center mb-8 pt-16 max-sm:pt-10"
     >
       <div className="contact-box flex">
         <div className="contact-links w-1/2">

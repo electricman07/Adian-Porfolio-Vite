@@ -9,11 +9,11 @@ const imageclass = "image-animation w-6/12 rounded-full";
 function Header() {
   return (
     <>
-      <section className="home w-screen h-screen flex max-sm:h-[130vh]">
-        <header
-          className="header flex justify-items-center items-center h-full w-full content-center my-8 max-sm:flex-col max-sm:justify-items-start "
-          id="home"
-        >
+      <section
+        className="home w-screen h-screen flex max-sm:h-[140vh] max-sm:pt-20"
+        id="home"
+      >
+        <header className="header flex justify-items-center items-center h-full w-full content-center my-8 max-sm:flex-col max-sm:justify-items-start ">
           {/* Image */}
           <div className="image-container w-6/12 h-1/2 max-sm:h-auto max-sm:w-auto flex justify-center ">
             <Image
