@@ -45,8 +45,16 @@ function Header() {
                 program where I specialized in Production Design and Directing.
               </p>
               <div className="flex gap-5">
-                <Button CV={CV} buttonName={"Download Resume"} />
-                <Button CV={CV} buttonName={"Download Portfolio"} />
+                <Button
+                  CV={CV}
+                  buttonName={"Download Resume"}
+                  classList={"button button-flex"}
+                />
+                <Button
+                  CV={CV}
+                  buttonName={"Download Portfolio"}
+                  classList={"button button-flex"}
+                />
               </div>
             </div>
           </div>

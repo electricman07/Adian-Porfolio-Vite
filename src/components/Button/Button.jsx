@@ -1,6 +1,6 @@
-function Button({ CV, buttonName }) {
+function Button({ CV, buttonName, classList }) {
   return (
-    <a href={CV} className="button button-flex">
+    <a href={CV} className={classList}>
       {buttonName}
       <svg
         className="button-icon"
