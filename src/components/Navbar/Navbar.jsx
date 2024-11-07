@@ -70,6 +70,9 @@ function Navbar() {
           <Link className="nav-link" to="/#sign-in">
             Sign In
           </Link>
+          <Link className="nav-link" to="/portfoliopage">
+            Portfolio Page
+          </Link>
         </div>
       </nav>
     </>

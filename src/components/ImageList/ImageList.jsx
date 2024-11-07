@@ -1,3 +1,5 @@
+import Button from "../Button/Button";
+
 function ImageList({ image, classList }) {
   return (
     <>
@@ -9,6 +11,9 @@ function ImageList({ image, classList }) {
         <div className="image-text mt-2 p-6">
           <p className="caption-body">{image.caption}</p>
         </div>
+      </div>
+      <div className="text-center">
+        <Button buttonName={"details"} classList={"button button-flex"} />
       </div>
     </>
   );
