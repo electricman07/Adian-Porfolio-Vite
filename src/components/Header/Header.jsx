@@ -2,6 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 import "./Header.css";
 import ImgIcon from "/assets/images/headshot_adrian.jpg";
 import Button from "../Button/Button";
+import { BsFillFileEarmarkPdfFill } from "react-icons/bs";
 
 import Image from "../Image/Image";
 import CV from "/src/assets/John-Cv.pdf";
@@ -49,11 +50,13 @@ function Header() {
                   CV={CV}
                   buttonName={"Download Resume"}
                   classList={"button button-flex"}
+                  buttonImage={<BsFillFileEarmarkPdfFill />}
                 />
                 <Button
                   CV={CV}
                   buttonName={"Download Portfolio"}
                   classList={"button button-flex"}
+                  buttonImage={<BsFillFileEarmarkPdfFill />}
                 />
               </div>
             </div>

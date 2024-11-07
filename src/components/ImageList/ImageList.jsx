@@ -1,4 +1,5 @@
 import Button from "../Button/Button";
+import { BiMovie } from "react-icons/bi";
 
 function ImageList({ image, classList }) {
   return (
@@ -13,7 +14,11 @@ function ImageList({ image, classList }) {
         </div>
       </div>
       <div className="text-center">
-        <Button buttonName={"details"} classList={"button button-flex"} />
+        <Button
+          buttonName={"details "}
+          classList={"button button-flex"}
+          buttonImage={<BiMovie />}
+        />
       </div>
     </>
   );
